@@ -16,10 +16,49 @@
     <Filter Include="소스 파일\Codeforces Round 118">
       <UniqueIdentifier>{6611c590-692f-4408-a46f-08227499add6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Codeforce Round 760">
+      <UniqueIdentifier>{15dd777e-6ccd-4dbb-a350-4b441dfc3d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round 761">
+      <UniqueIdentifier>{f30ac04e-4653-4f45-96b2-8cdb3001a4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Educational Codeforces Round 119">
+      <UniqueIdentifier>{62b8728a-b51f-44cb-8efc-963d42f22707}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_LongComparison.cpp">
       <Filter>소스 파일\Codeforces Round 118</Filter>
+    </ClCompile>
+    <ClCompile Include="B_AbsentRemainder.cpp">
+      <Filter>소스 파일\Codeforces Round 118</Filter>
+    </ClCompile>
+    <ClCompile Include="A_SumofSequence.cpp">
+      <Filter>소스 파일\Codeforce Round 760</Filter>
+    </ClCompile>
+    <ClCompile Include="B_MissingBigram.cpp">
+      <Filter>소스 파일\Codeforce Round 760</Filter>
+    </ClCompile>
+    <ClCompile Include="C_painttheArray.cpp">
+      <Filter>소스 파일\Codeforce Round 760</Filter>
+    </ClCompile>
+    <ClCompile Include="D_ArrayAndOperation.cpp">
+      <Filter>소스 파일\Codeforce Round 760</Filter>
+    </ClCompile>
+    <ClCompile Include="E.cpp">
+      <Filter>소스 파일\Codeforce Round 760</Filter>
+    </ClCompile>
+    <ClCompile Include="F.cpp">
+      <Filter>소스 파일\Codeforce Round 760</Filter>
+    </ClCompile>
+    <ClCompile Include="A_forbiddenSubsequence.cpp">
+      <Filter>소스 파일\Codeforces Round 761</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_PaprikaAndPermutation.cpp">
+      <Filter>소스 파일\Codeforces Round 761</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
