@@ -11,21 +11,7 @@ int main()
 		vector<int> b(n);
 		for (int& x : b) cin >> x;
 
-		int a1 = b[0], a2, a3;
-		bool flag = false;
-		for (int i = 1; i < n; i++)
-		{
-			for (int j = i + 1; j < n; j++)
-			{
-				if (b[i] + b[j] == b[n - 1] - b[0])
-				{
-					cout << a1 << " " << b[i] << " " << b[j] << "\n";
-					flag = true;
-					break;
-				}
-			}
-			if (flag) break;
-		}
+		cout << b[0] << " " << b[1] << " " << b[6] - b[0] - b[1] << "\n";
 	}
 	return 0;
 }

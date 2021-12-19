@@ -45,7 +45,7 @@
     <ClCompile Include="D_ArrayAndOperation.cpp">
       <Filter>소스 파일\Codeforce Round 760</Filter>
     </ClCompile>
-    <ClCompile Include="E.cpp">
+    <ClCompile Include="E_singersTour.cpp">
       <Filter>소스 파일\Codeforce Round 760</Filter>
     </ClCompile>
     <ClCompile Include="F.cpp">
@@ -59,6 +59,15 @@
     </ClCompile>
     <ClCompile Include="C_PaprikaAndPermutation.cpp">
       <Filter>소스 파일\Codeforces Round 761</Filter>
+    </ClCompile>
+    <ClCompile Include="A_equalorNotEqual.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 119</Filter>
+    </ClCompile>
+    <ClCompile Include="b.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 119</Filter>
+    </ClCompile>
+    <ClCompile Include="E_ReplacetheNumbers.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 119</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
