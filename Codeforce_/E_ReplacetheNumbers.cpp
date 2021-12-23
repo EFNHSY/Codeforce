@@ -1,34 +1,45 @@
 #include <bits/stdc++.h>
+#define MAXN 500000+13
 using namespace std;
 
-vector<int> idx[500001];
+vector<int> pos[MAXN];
+vector<int> ans(MAXN, 0);
 
 int main()
 {
-	int q; cin >> q;
-	vector<int> arr;
-	while (q--)
+	int query; cin >> query;
+	int idx = 0;
+	while (query--)
 	{
-		int n; cin >> n;
-		if (n == 1)
+		int q, x, y;
+		cin >> q >> x;
+		if (q == 1)
 		{
-			int x; cin >> x; 
-			arr.push_back(x);
-			
+			pos[x].push_back(idx++);
 		}
 		else
 		{
-			int x, y; cin >> x >> y;
-			for (int i = 0, j = arr.size() - 1; i <= j; i++, j--)
+			cin >> y;
+			if (x != y)
 			{
-				if (arr[i] == x) arr[i] = y;
-				if (arr[j] == x) arr[j] = y;
+				if (pos[x].size() > pos[y].size()) pos[x].swap(pos[y]);
+				for (int i = 0; i < pos[x].size(); i++) pos[y].push_back(pos[x][i]);
+				pos[x].clear();
 			}
 		}
-
 	}
-	for (auto u : arr)
+	
+	for (int i = 0; i < MAXN; i++)
 	{
-		cout << u << " ";
-	}cout << "\n";
+		for (auto x : pos[i])
+		{
+			ans[x] = i;
+		}
+	}
+	for (int i = 0; i < MAXN; i++)
+	{
+		if (ans[i] < 1) break;
+		cout << ans[i] << " ";
+	}
+	return 0;
 }

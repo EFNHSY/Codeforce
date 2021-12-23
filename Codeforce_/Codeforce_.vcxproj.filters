@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Educational Codeforces Round 119">
       <UniqueIdentifier>{62b8728a-b51f-44cb-8efc-963d42f22707}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Codeforces Round #762 %28Div. 3%29">
+      <UniqueIdentifier>{8ca786fc-c575-43e1-a522-6e82e8fd8067}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_LongComparison.cpp">
@@ -54,9 +57,6 @@
     <ClCompile Include="A_forbiddenSubsequence.cpp">
       <Filter>소스 파일\Codeforces Round 761</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="C_PaprikaAndPermutation.cpp">
       <Filter>소스 파일\Codeforces Round 761</Filter>
     </ClCompile>
@@ -67,6 +67,24 @@
       <Filter>소스 파일\Educational Codeforces Round 119</Filter>
     </ClCompile>
     <ClCompile Include="E_ReplacetheNumbers.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 119</Filter>
+    </ClCompile>
+    <ClCompile Include="C_BAstring.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 119</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>소스 파일\Codeforces Round #762 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B_SquaresAndCubes.cpp">
+      <Filter>소스 파일\Codeforces Round #762 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C_WrongAddition.cpp">
+      <Filter>소스 파일\Codeforces Round #762 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E_MEX_and_Increments.cpp">
+      <Filter>소스 파일\Codeforces Round #762 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="F_Hat.cpp">
       <Filter>소스 파일\Educational Codeforces Round 119</Filter>
     </ClCompile>
   </ItemGroup>
