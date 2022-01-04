@@ -28,6 +28,24 @@
     <Filter Include="소스 파일\Codeforces Round #762 %28Div. 3%29">
       <UniqueIdentifier>{8ca786fc-c575-43e1-a522-6e82e8fd8067}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Codeforces Global Round 17">
+      <UniqueIdentifier>{ae3f1c4d-6d76-42ae-a305-ad1575564c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Global Round 18">
+      <UniqueIdentifier>{4596af1b-cdad-47c3-adf9-b7af58415062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Educational Codeforces Round 120 %28Rated for Div. 2%29">
+      <UniqueIdentifier>{f7ca1599-df27-4003-b788-c95e2503acf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforce Round 760\NewFilter1">
+      <UniqueIdentifier>{ad8aa8a3-5921-401e-b309-2aee7c8a8cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #763 %28Div. 2%29">
+      <UniqueIdentifier>{2c0be7d4-ae9b-4abe-ace2-54fc3d857d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Hello2022">
+      <UniqueIdentifier>{56318a59-fb68-4a68-80a6-91b68d78ede9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_LongComparison.cpp">
@@ -86,6 +104,42 @@
     </ClCompile>
     <ClCompile Include="F_Hat.cpp">
       <Filter>소스 파일\Educational Codeforces Round 119</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Anti Light%27s Cell Guessing.cpp">
+      <Filter>소스 파일\Codeforces Global Round 17</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Closing The Gap.cpp">
+      <Filter>소스 파일\Codeforces Global Round 18</Filter>
+    </ClCompile>
+    <ClCompile Include="B_And It%27s Non-Zero.cpp">
+      <Filter>소스 파일\Codeforces Global Round 18</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Menorah.cpp">
+      <Filter>소스 파일\Codeforces Global Round 18</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Construct a Rectangle.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 120 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B_berlin.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 120 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Set or Decrease.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 120 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Robot Cleaner.cpp">
+      <Filter>소스 파일\Codeforces Round #763 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B_GameOnRanges.cpp">
+      <Filter>소스 파일\Codeforces Round #763 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Balanced Stone Heaps.cpp">
+      <Filter>소스 파일\Codeforces Round #763 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D_Robot Cleaner Revisit.cpp">
+      <Filter>소스 파일\Codeforces Round #763 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A___.cpp">
+      <Filter>소스 파일\Hello2022</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
