@@ -46,6 +46,15 @@
     <Filter Include="소스 파일\Hello2022">
       <UniqueIdentifier>{56318a59-fb68-4a68-80a6-91b68d78ede9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Codeforces Round #764 %28Div. 3%29">
+      <UniqueIdentifier>{be86927f-fee3-4f3f-988f-b199e2b8f411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #766 %28Div. 2%29">
+      <UniqueIdentifier>{dae6fcf6-21c6-4aef-bdee-0dfc240f69c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #756 %28Div. 3%29">
+      <UniqueIdentifier>{b2b052b9-6753-46e0-9a67-e789a006bffe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_LongComparison.cpp">
@@ -140,6 +149,48 @@
     </ClCompile>
     <ClCompile Include="A___.cpp">
       <Filter>소스 파일\Hello2022</Filter>
+    </ClCompile>
+    <ClCompile Include="A. Plus One on the Subset.cpp">
+      <Filter>소스 파일\Codeforces Round #764 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B_Make AP.cpp">
+      <Filter>소스 파일\Codeforces Round #764 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Division by Two and Permutation.cpp">
+      <Filter>소스 파일\Codeforces Round #764 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D_Palindromes Coloring.cpp">
+      <Filter>소스 파일\Codeforces Round #764 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E_Masha-forgetful.cpp">
+      <Filter>소스 파일\Codeforces Round #764 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Not Shading.cpp">
+      <Filter>소스 파일\Codeforces Round #766 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B_Not Sitting.cpp">
+      <Filter>소스 파일\Codeforces Round #766 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Not Assigning.cpp">
+      <Filter>소스 파일\Codeforces Round #766 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A - Make Even.cpp">
+      <Filter>소스 파일\Codeforces Round #756 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B_Team Composition.cpp">
+      <Filter>소스 파일\Codeforces Round #756 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Polycarp Recovers the Permutation.cpp">
+      <Filter>소스 파일\Codeforces Round #756 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D_Weights Assignment For Tree Edges.cpp">
+      <Filter>소스 파일\Codeforces Round #756 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="E1_Escape The Maze (easy version).cpp">
+      <Filter>소스 파일\Codeforces Round #756 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="F_ATM and Students.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

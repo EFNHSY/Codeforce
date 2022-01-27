@@ -1,49 +1,51 @@
 #include <bits/stdc++.h>
-#define INF 1e10
 using namespace std;
+int t, n, h[200001];
 
-int main()
+bool check(int mid)
 {
-	int t; cin >> t;
+	vector<int> cur_h(h, h + n);
+	for (int i = n - 1; i >= 2; i--)
+	{
+		if (cur_h[i] < mid) return false;
+		int d = min(h[i], cur_h[i] - mid) / 3;
+		// 기존의 heap에 들어있던 돌보다 많이 움직이면 안되므로 왜냐면 거꾸로 가니깐
+		if (cur_h[i] - d < mid) return false;
+		cur_h[i - 1] += d;
+		cur_h[i - 2] += 2 * d;
+		
+	}
+	
+	return cur_h[0] >= mid && cur_h[1] >= mid;
+}
+void solve()
+{
+	cin >> t;
 	while (t--)
 	{
-		bool flag = true;
-		int min_ = INF;
-		int n; cin >> n;
-		vector<int> arr(n+1, 0);
-		for (int i = 1; i <= n; i++)
+		cin >> n;
+		for (int i = 0; i < n; i++) cin >> h[i];
+		int lo = 0, hi = *max_element(h, h + n),ans=lo;
+		while (lo <= hi)
 		{
-			cin >> arr[i];
-			if (i >= 3 && arr[i] >= 9) flag = false;
-			min_ = min(min_, arr[i]);
-		}
-		if (flag)
-		{
-			cout << min_ << "\n";
-			continue;
-		}
-		min_ = arr[1];
+			int mid = (lo + hi) / 2;
 
-		for (int i = 1; i <= n - 2; i++)
-		{
-			int temp = arr[i + 2];
-			for (int j = 0; 3 * j <= temp; j++)
+			if (check(mid))
 			{
-				int tmp2 = min(arr[i] + 2 * j, arr[i + 1] + 1 * j);
-				tmp2 = min(tmp2, arr[i + 2] - 3 * j);
-				if (tmp2 > min_)
-				{
-					j--;
-					arr[i] += 2 * j;
-					arr[i + 1] += j;
-					arr[i + 2] -= 3 * j;
-					break;
-				}
+				ans =max(ans, mid);
+				lo = mid + 1;
 			}
-			min_ = min(arr[i], min_);
+			else
+			{
+				hi = mid - 1;
+			}
+			
 		}
-		cout << min_ << "\n";
+		cout << ans << "\n";
 	}
-
+}
+int main()
+{
+	solve();
 	return 0;
 }
