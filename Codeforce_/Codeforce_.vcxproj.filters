@@ -190,7 +190,7 @@
       <Filter>소스 파일\Codeforces Round #756 %28Div. 3%29</Filter>
     </ClCompile>
     <ClCompile Include="F_ATM and Students.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Codeforces Round #756 %28Div. 3%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
