@@ -55,6 +55,21 @@
     <Filter Include="소스 파일\Codeforces Round #756 %28Div. 3%29">
       <UniqueIdentifier>{b2b052b9-6753-46e0-9a67-e789a006bffe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Codeforces Round #770 %28Div. 2%29">
+      <UniqueIdentifier>{c9533967-2028-407c-968c-5ed4d65c0070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #769 %28Div. 2%29">
+      <UniqueIdentifier>{00d5be83-1aa2-4677-beb1-cb0cebc3cbba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #771 %28Div. 2%29">
+      <UniqueIdentifier>{f8cebca6-b283-44e6-82a3-b510cae166fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Educational Codeforces Round 123 %28Rated for Div. 2%29">
+      <UniqueIdentifier>{48c26878-21cd-498b-9d52-2ef1b2a3abe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #776 %28Div. 3%29">
+      <UniqueIdentifier>{214d3645-13bc-4798-b3b3-0a47096e9541}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_LongComparison.cpp">
@@ -191,6 +206,57 @@
     </ClCompile>
     <ClCompile Include="F_ATM and Students.cpp">
       <Filter>소스 파일\Codeforces Round #756 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A_Reverse and Concatenate.cpp">
+      <Filter>소스 파일\Codeforces Round #770 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Fortune Telling.cpp">
+      <Filter>소스 파일\Codeforces Round #770 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A_ABC.cpp">
+      <Filter>소스 파일\Codeforces Round #769 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B_RoofConstruction.cpp">
+      <Filter>소스 파일\Codeforces Round #769 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Strange Test.cpp">
+      <Filter>소스 파일\Codeforces Round #769 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C_strange_test_bfs.cpp">
+      <Filter>소스 파일\Codeforces Round #769 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="aaaaa.cpp">
+      <Filter>소스 파일\Codeforces Round #771 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Odd Swap Sort.cpp">
+      <Filter>소스 파일\Codeforces Round #771 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C. Inversion Graph.cpp">
+      <Filter>소스 파일\Codeforces Round #771 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="A - Doors and Keys.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 123 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B - Anti-Fibonacci Permutation.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 123 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C - Increase Subarray Sums.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 123 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ddddddd.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 123 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="a.Deletions of Two Adjacent Letters.cpp">
+      <Filter>소스 파일\Codeforces Round #776 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. DIV + MOD.cpp">
+      <Filter>소스 파일\Codeforces Round #776 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cccccccccc.cpp">
+      <Filter>소스 파일\Codeforces Round #776 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ddddddddd.cpp">
+      <Filter>소스 파일\Codeforces Round #776 %28Div. 3%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
