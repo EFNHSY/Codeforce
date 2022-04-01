@@ -1,21 +1,34 @@
-
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; 
+
+#define ll long long
+vector<pair<ll, ll>> arr;
+vector<ll> segTree;
+const ll inf = 1e9;
+
+
 
 void solve()
 {
-	int n,x,y=0,ans=0; cin >> n;
+	int n; cin >> n;
+	arr.push_back({ -inf,0 });
+	segTree = vector<ll>(4 * (n + 10));
 	for (int i = 1; i <= n; i++)
 	{
-		cin >> x;
-		y = max(x, y);
-		if (i == y) ans++;
+		int x; cin >> x;
+		arr.push_back({ x,i });
 	}
-	cout << ans << "\n";
+	
+	sort(arr.begin(), arr.end());
+
+	for (int i = 1; i <= n; i++)
+	{
+
+	}
 }
 int main()
 {
 	int t; cin >> t;
-	while (t--) solve();
+	while(t--) solve();
 	return 0;
 }

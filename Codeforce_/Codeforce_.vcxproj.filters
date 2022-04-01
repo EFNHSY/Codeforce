@@ -70,6 +70,27 @@
     <Filter Include="소스 파일\Codeforces Round #776 %28Div. 3%29">
       <UniqueIdentifier>{214d3645-13bc-4798-b3b3-0a47096e9541}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Educational Codeforces Round 124 %28Rated for Div. 2%29">
+      <UniqueIdentifier>{7d753808-653e-4cbc-bf11-57fbc776932f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #777 %28Div. 2%29">
+      <UniqueIdentifier>{4573b63c-8d84-4ef5-835e-1c500796257f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #779 %28Div. 2%29">
+      <UniqueIdentifier>{ad581795-d349-4bce-b1d9-eea16b0d847f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Raif Round 1 %28Div. 1 + Div. 2%29">
+      <UniqueIdentifier>{b409c81a-e612-41ea-995e-ff96faacbeea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Educational Codeforces Round 96 %28Rated for Div. 2%29">
+      <UniqueIdentifier>{6722423d-4d3e-47be-8e70-57d6f6d83884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Global Round 11">
+      <UniqueIdentifier>{a4b30664-8745-41e9-b666-0888ee198a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Codeforces Round #780 %28Div. 3%29">
+      <UniqueIdentifier>{78c7feeb-60d1-4769-b777-830217e83b8f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_LongComparison.cpp">
@@ -258,5 +279,109 @@
     <ClCompile Include="ddddddddd.cpp">
       <Filter>소스 파일\Codeforces Round #776 %28Div. 3%29</Filter>
     </ClCompile>
+    <ClCompile Include="aaaaaaa.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 124 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="bbbbbbbbb.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 124 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cccccccccccc.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 124 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="dddddddd.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 124 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 124 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일\Codeforces Round #777 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <Filter>소스 파일\Codeforces Round #777 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="소스3.cpp">
+      <Filter>소스 파일\Codeforces Round #777 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="소스4.cpp">
+      <Filter>소스 파일\Codeforces Round #777 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="aaaaaaaaaa.cpp">
+      <Filter>소스 파일\Codeforces Round #779 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="bbbbb.cpp">
+      <Filter>소스 파일\Codeforces Round #779 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cccc.cpp">
+      <Filter>소스 파일\Codeforces Round #779 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="dddddddddddddd.cpp">
+      <Filter>소스 파일\Codeforces Round #779 %28Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="aaaaaaaaaaaaaaaaaaaaaaaaaaaaa.cpp">
+      <Filter>소스 파일\Codeforces Raif Round 1 %28Div. 1 + Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="bb.cpp">
+      <Filter>소스 파일\Codeforces Raif Round 1 %28Div. 1 + Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="cc.cpp">
+      <Filter>소스 파일\Codeforces Raif Round 1 %28Div. 1 + Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="dd.cpp">
+      <Filter>소스 파일\Codeforces Raif Round 1 %28Div. 1 + Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="aaa.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 96 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Barrels.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 96 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ccccczxx.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 96 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D. String Deletion.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 96 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ee.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 96 %28Rated for Div. 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="aaaaaaaaaaaaaaaaaaaa.cpp">
+      <Filter>소스 파일\Codeforces Global Round 11</Filter>
+    </ClCompile>
+    <ClCompile Include="B. Chess Cheater.cpp">
+      <Filter>소스 파일\Codeforces Global Round 11</Filter>
+    </ClCompile>
+    <ClCompile Include="C. The Hard Work of Paparazzi.cpp">
+      <Filter>소스 파일\Codeforces Global Round 11</Filter>
+    </ClCompile>
+    <ClCompile Include="ddddddddddddddddd.cpp">
+      <Filter>소스 파일\Codeforces Global Round 11</Filter>
+    </ClCompile>
+    <ClCompile Include="eeeeeeeeeeeeeeeeee.cpp">
+      <Filter>소스 파일\Codeforces Global Round 11</Filter>
+    </ClCompile>
+    <ClCompile Include="aa12.cpp">
+      <Filter>소스 파일\Codeforces Round #780 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="b12.cpp">
+      <Filter>소스 파일\Codeforces Round #780 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="c12.cpp">
+      <Filter>소스 파일\Codeforces Round #780 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="D. Maximum Product Strikes Back.cpp">
+      <Filter>소스 파일\Codeforces Round #780 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="e12.cpp">
+      <Filter>소스 파일\Codeforces Round #780 %28Div. 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="f12.cpp">
+      <Filter>소스 파일\Codeforces Round #780 %28Div. 3%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C. Numbers on Whiteboard.cpp">
+      <Filter>소스 파일\Educational Codeforces Round 96 %28Rated for Div. 2%29</Filter>
+    </None>
   </ItemGroup>
 </Project>
